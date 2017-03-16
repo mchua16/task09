@@ -28,5 +28,4 @@ test_that("take_mean takes the mean of x", {
 
 devtools::use_vignette("my-vignette") #creates vignette
 
-browseVignettes("tidyverse") #browses ggplot2 vignette
-
+browseVignettes("dplyr") #browses ggplot2 vignette

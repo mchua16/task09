@@ -1,15 +1,15 @@
-Package: task9
+Package: take_mean
 Type: Package
-Title: What the Package Does (Title Case)
+Title: take_mean: allowing users to easily average a numeric vector
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Michelle Chua
+Maintainer: Michelle Chua <mchua@vols.utk.edu>
+Description: The take_mean package allows users to take the mean of any vector by simply applying the mean() function, which is built into the R Base Package.
+License: CC0
 Encoding: UTF-8
 LazyData: true
 Suggests: testthat,
     knitr,
     rmarkdown
+    ggplot2
 VignetteBuilder: knitr

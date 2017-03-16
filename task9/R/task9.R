@@ -13,6 +13,6 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
-take_mean <- function(x) { #creates a function assigned as take_mean
+take_mean <- function(x) { #creates a function assigned as take_mean%
   mean(x) #takes the mean of x
 }
