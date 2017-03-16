@@ -1,0 +1,16 @@
+Package: takemean
+Type: Package
+Title: Takemean Function
+Version: 0.1.0
+Date: 16-3-2017
+Author: Michelle Chua <mchua@vols.utk.edu>
+Maintainer: Michelle Chua <mchua@vols.utk.edu>
+Description: The takemean package lets users take the mean of any numeric vector by simply applying the mean function which is built into the R Base Package.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Suggests: testthat,
+    knitr,
+    rmarkdown,
+    ggplot2
+VignetteBuilder: knitr

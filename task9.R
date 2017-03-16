@@ -1,4 +1,5 @@
 library(tidyverse) #loads tidyverse
+library(ggplot2)
 
 install.packages(c("devtools", "roxygen2", "testthat", "knitr")) #installs these packages
 
@@ -26,6 +27,14 @@ test_that("take_mean takes the mean of x", {
   expect_that(mean(x) == 1.5, is_true())
 }) #code for testing task9 package
 
-devtools::use_vignette("my-vignette") #creates vignette
+devtools::use_vignette("takemean") #creates vignette
 
 browseVignettes("dplyr") #browses ggplot2 vignette
+
+install.packages("takemean")
+
+??takemean
+
+getwd()
+setwd("task09")
+getwd()
