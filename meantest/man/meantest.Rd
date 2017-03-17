@@ -7,10 +7,10 @@
 meantest(x)
 }
 \arguments{
-\item{love}{Do you love cats? Defaults to TRUE.}
+\item{x}{x should be a numeric vector.}
 }
 \description{
-This function allows you to express your love of cats.
+This function lets users take the mean of any numeric vector.
 }
 \examples{
 meantest()
