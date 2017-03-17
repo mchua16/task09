@@ -1,7 +1,7 @@
 #' meantest Function
 #'
-#' This function allows you to express your love of cats.
-#' @param love Do you love cats? Defaults to TRUE.
+#' This function lets users take the mean of any numeric vector.
+#' @param x x should be a numeric vector.
 #' @keywords meantest 
 #' @export
 #' @examples
