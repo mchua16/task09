@@ -1,0 +1,14 @@
+Package: takeavge
+Title: What the Package Does (one line, title case)
+Version: 1.0
+Authors@R: person("Michelle", "Chua", email = "mchua@vols.utk.edu", role = c("aut", "cre"))
+Description: The takeavge package lets users take the average
+    of any numeric vector by simply applying the mean 
+    function, which is built into the R Base Package.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Suggests:
+    ggplot2,
+    testthat
+RoxygenNote: 6.0.1.9000
