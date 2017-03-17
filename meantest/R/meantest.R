@@ -7,6 +7,6 @@
 #' @examples
 #' meantest()
 
-meantest <- function(x) { 
-  mean(x)
+meantest <- function(x) { #creates a function assigned as meantest
+  mean(x) #takes the mean of x, as long as it is a numeric vector
 }
