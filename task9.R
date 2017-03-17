@@ -7,6 +7,7 @@ install.packages("rstudioapi")
 rstudioapi::isAvailable("0.99.149") #makes sure I have a recent version of RStudio
 
 library(devtools) #loads devtools
+library(testthat)
 
 x <-  diamonds$price #assigns the depth column of the diamonds dataset to x
 
@@ -35,6 +36,6 @@ install.packages("takemean")
 
 ??takemean
 
-getwd()
-setwd("task09")
-getwd()
+devtools::install_github("mchua16/task_09/takemean")
+
+document()

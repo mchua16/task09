@@ -9,13 +9,13 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-## take_mean Info
+## takemean Info
 
-The take_mean package allows users to take the mean of any vector by simply applying the mean() function, which is built into the R Base Package.
+The takemean package allows users to take the mean of any vector by simply applying the mean() function, which is built into the R Base Package.
 
-## take_mean Requirements
+## takemean Requirements
 
-1) To use the take_mean function, vectors must be numeric. 
+1) To use the takemean function, vectors must be numeric. 
 2) To extract specific variables from a data frame, simply use the dollar sign ($).
 
 ## Example using diamonds data frame
@@ -24,12 +24,12 @@ An example on how to use the function and the output is detailed below. To perfo
 
 ```{r echo=FALSE, warning=FALSE}
 library(ggplot2)
-take_mean <- function(x) { #creates a function assigned as take_mean%
+takemean <- function(x) { #creates a function assigned as takemean
   mean(x) #takes the mean of x
 }
 ```
 As expected, the take_mean function performs the task as accurately as the R Base mean() function.
 ```{r echo=TRUE, warning=FALSE}
-take_mean(diamonds$price)
+takemean(diamonds$price)
 mean(diamonds$price)
 ```
